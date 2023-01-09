@@ -1,0 +1,124 @@
+/* Write your CSS here */
+.bg-commments-container {
+  padding: 25px;
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+}
+
+.comment-heading {
+  font-family: 'Roboto';
+  font-size: 58px;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+.form-img-container {
+  display: flex;
+}
+
+.label-ele {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #475569;
+}
+
+.input-element {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #475569;
+  padding-left: 15px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #cbd2d9;
+  background-color: transparent;
+  height: 37px;
+  width: 299px;
+  outline: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.textarea-element {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #475569;
+  padding-left: 15px;
+  padding-top: 8px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #cbd2d9;
+  background-color: transparent;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.comments-img-size {
+  height: 300px;
+  width: 365px;
+  margin-top: 115px;
+  margin-left: 160px;
+}
+
+.add-comment-btn {
+  height: 35px;
+  width: 120px;
+  border-radius: 6px;
+  border-width: 0px;
+  background-color: #0284c7;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.horizontal-line {
+  border-color: #cbd2d9;
+  border-width: 1px;
+  width: 820px;
+  margin-left: 0;
+  outline: none;
+}
+
+.count-container {
+  height: 30px;
+  width: 30px;
+  background-color: #0284c7;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comment-count-container {
+  display: flex;
+}
+
+.count-container {
+  margin-top: 12px;
+}
+
+.comment-count {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.comment-para {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-left: 10px;
+}
+
+.unordered-list {
+  padding-left: 0px;
+}
