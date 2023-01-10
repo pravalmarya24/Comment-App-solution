@@ -37,6 +37,18 @@ class Comments extends Component {
     }))
   }
 
+  onDeleteingComments = id => {
+    const {commentList} = this.state
+    const deletedCommentsList = commentList.filter(
+      eachCommen => eachCommen.id !== id,
+    )
+
+    this.setState(prevState => ({
+      commentList: deletedCommentsList,
+      count: prevState.count - 1,
+    }))
+  }
+
   addingCommentInList = event => {
     event.preventDefault()
     const {name, newComment} = this.state
@@ -118,6 +130,7 @@ class Comments extends Component {
               eachitemList={eachitem}
               key={eachitem.id}
               onToggleTheImg={this.onToggleTheImg}
+              onDeleteingComments={this.onDeleteingComments}
             />
           ))}
         </ul>

@@ -102,6 +102,24 @@
   outline: none;
 }
 
+.like-icon-size {
+  height: 20px;
+  width: 20px;
+  margin-top: 4px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  width: 820px;
+}
+
+.delete-icon-size {
+  height: 18px;
+  width: 18px;
+  margin-top: 6px;
+}
+
 .like-color {
   color: #0b69ff;
 }
